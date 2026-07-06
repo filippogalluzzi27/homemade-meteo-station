@@ -1,6 +1,33 @@
-.Rproj.user
+# --- R / RStudio ---
+.Rproj.user/
 .Rhistory
 .RData
-.httr-oauth
+.Ruserdata
+*.Rproj
+
+# --- Output generati ---
+output/            
+*.png
+*.pdf
+
+# --- Dati grezzi/pesanti (opzionale) ---
+data/raw/          # se scarichi da ThingSpeak e puoi riscaricare
+*.csv              # attenzione: vedi nota sotto
+*.gpkg
+*.tif
+
+
+# --- Codice per arduino ---
+*.ino              # mettere manualmente, contiene password
+
+# --- Credenziali / segreti ---
+.Renviron          # se ci tieni API key ThingSpeak/Open-Meteo
+*.key
+config_secret.R
+
+# --- Sistema ---
 .DS_Store
+Thumbs.db
+.Rproj.user
+.httr-oauth
 .quarto
