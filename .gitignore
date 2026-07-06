@@ -10,9 +10,9 @@ output/
 *.png
 *.pdf
 
-# --- Dati grezzi/pesanti (opzionale) ---
-data/raw/          # se scarichi da ThingSpeak e puoi riscaricare
-*.csv              # attenzione: vedi nota sotto
+# --- Dati grezzi/pesanti
+data/raw/
+*.csv              
 *.gpkg
 *.tif
 
