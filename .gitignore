@@ -18,6 +18,7 @@ data/raw/
 
 
 # --- Codice per arduino ---
+scripts/ino/
 *.ino              # mettere manualmente, contiene password
 
 # --- Credenziali / segreti ---

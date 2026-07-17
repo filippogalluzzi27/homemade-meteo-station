@@ -21,7 +21,7 @@ int <- "data/intermediate"
 # ============================================================================
 P <- list(
   INPUT_PATH = file.path(raw, "feeds.csv"), 
-  OUTPUT_PATH = file.path(int, "data_homemade_station.csv"),
+  OUTPUT_PATH = file.path(int, "1.clean_data.csv"),
   DPI        = 130,
   TZ         = "Europe/Rome",
   QUOTA_M = 330,    # elevation
@@ -109,8 +109,6 @@ out <- data.frame(
 if(P$COL_ID %in% names(df)) out$entry_id <- df[[P$COL_ID]]
 
 write.csv(out, P$OUTPUT_PATH, row.names=FALSE)
-
-
 
 
 
