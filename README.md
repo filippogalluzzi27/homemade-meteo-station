@@ -8,7 +8,6 @@ Schermatura Stevenson (legno); altezza 2 m dal suolo.
 
 Progetto pensato per il monitoraggio locale (contesto: Serre di Rapolano, ~330 m s.l.m., Toscana), con confronto verso la climatologia LaMMA/SIR Siena 1991–2020.
 
-Codici sviluppati ed ottimizzati con l'assistenza di Claude.
 
 ---
 
